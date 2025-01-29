@@ -1,1 +1,14 @@
+#include<iostream>
+#include<string>
+int main()
+{
+std::string A,B;
+
+std::cout<<"Please enter the user name"<<std::endl; 
+std::cin>>A;
+std::cout<<"Please enter your passcode"<<std::endl;
+std::cin>>B;
+std::cout<<"Welcome back "<<A<<"!"<<std::endl;
+return 0;
+}
 
